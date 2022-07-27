@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;900&display=swap');
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+html {
+  font-size: 62.5%;
+}
+
+.navbar-container {
+  position: relative;
+  padding: 1rem 3rem;
+}
+.navbar-container img {
+  float: left;
+  margin: 0 4rem;
+}
+.grow-list {
+  margin: 2rem 0 0 0;
+}
+.list .list-item {
+  text-align: center;
+  display: inline;
+  margin: 2rem 5rem;
+  list-style: none;
+  font-size: 2rem;
+  color: gray;
+  width: 50%;
+}
+
+.button-group {
+  position: absolute;
+  right: 8%;
+  bottom: 2rem;
+}
+.nav-button {
+  padding: 2rem;
+  width: 17rem;
+  font-size: 2rem;
+  color: #fff;
+  background-color: #474091;
+  border: none;
+  border-radius: 15px;
+}
+.banner-container {
+  padding-top: 10%;
+  position: relative;
+}
+.navbar-container img {
+  padding-top: 1rem;
+}
+
+.heading-text {
+  font-size: 6rem;
+  color: #232352;
+  padding-left: 10%;
+  width: 50%;
+  letter-spacing: 3px;
+  font-weight: 700;
+}
+.heading-text span {
+  color: #474091;
+}
+.description {
+  font-size: 2rem;
+  color: #808080;
+  padding: 1% 0 2% 10%;
+  width: 50%;
+}
+.banner-container img {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 60rem;
+
+  height: 60rem;
+}
+.btn {
+  width: 30rem;
+  margin: 2% 10%;
+}
+@media (max-width: 700px) {
+  .navbar-container img {
+    width: 3rem;
+    height: 2rem;
+    margin: 1.5rem 0;
+  }
+  .navbar-container {
+    position: relative;
+  }
+  .list .list-item {
+    margin: 0 1rem;
+
+    font-size: 0.8rem;
+  }
+  .grow-list {
+    margin-left: 10%;
+  }
+  .nav-button {
+    padding: 0.3rem;
+    width: 8rem;
+    font-size: 0.8rem;
+  }
+  .button-group {
+    position: absolute;
+    right: 8%;
+    top: 3rem;
+  }
+  .navbar-container img {
+    padding-top: 1rem;
+  }
+
+  .heading-text {
+    font-size: 2rem;
+
+    padding-left: 10%;
+    width: 50%;
+    letter-spacing: 3px;
+    font-weight: 700;
+  }
+
+  .description {
+    font-size: 1rem;
+  }
+  .banner-container img {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 20rem;
+
+    height: 20rem;
+  }
+  .btn {
+    width: 15rem;
+    margin: 2% 10%;
+    padding: 1rem;
+  }
+}
